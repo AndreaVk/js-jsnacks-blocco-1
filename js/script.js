@@ -11,10 +11,21 @@
 //JSnack 3
 //Stampa le potenze di 2 fino a 1000.
 
-var n, somma=0;
+//var n, somma=0;
 
-for (var i = 0; i < 5; i++) {
+//for (var i = 0; i < 5; i++) {
+   // n = parseInt(prompt('Inserisci un numero'));
+   // somma += n;
+//}
+//console.log('la somma è ', somma);
+
+let n, somma=0;
+
+let i=0;
+
+while(i < 5){
     n = parseInt(prompt('Inserisci un numero'));
-    somma += n;
+    somma +=n;
+    i++;
 }
-console.log('la somma è ', somma);
+console.log('la somma è', somma)
