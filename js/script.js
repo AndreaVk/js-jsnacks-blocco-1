@@ -19,13 +19,19 @@
 //}
 //console.log('la somma è ', somma);
 
-let n, somma=0;
+//let n, somma=0;
 
-let i=0;
+//let i=0;
 
-while(i < 5){
-    n = parseInt(prompt('Inserisci un numero'));
-    somma +=n;
-    i++;
+//while(i < 5){
+   // n = parseInt(prompt('Inserisci un numero'));
+   // somma +=n;
+   // i++;
+//}
+//console.log('la somma è', somma)
+
+let potenza = 1;
+while (potenza < 1000) {
+console.log(potenza);
+ potenza = potenza * 2;
 }
-console.log('la somma è', somma)
