@@ -11,6 +11,7 @@
 //JSnack 3
 //Stampa le potenze di 2 fino a 1000.
 
+//snack1
 //var n, somma=0;
 
 //for (var i = 0; i < 5; i++) {
@@ -30,8 +31,22 @@
 //}
 //console.log('la somma è', somma)
 
-let potenza = 1;
-while (potenza < 1000) {
-console.log(potenza);
- potenza = potenza * 2;
+//snack 3
+//let potenza = 1;
+//while (potenza < 1000) {
+//console.log(potenza);
+ //potenza = potenza * 2;
+//}
+
+//snack2
+const parola1 = prompt("inserisci la prima parola");
+const parola2 = prompt("inserisci la seconda parola");
+
+if (parola1.length < parola2.length){
+   console.log(parola2);
+} else if (parola1.length < parola2.length) {
+   console.log(parola1);
+} else{
+   console.log(parola1);
+   console.log(parola2);
 }
